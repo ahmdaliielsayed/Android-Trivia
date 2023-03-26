@@ -19,4 +19,12 @@ Since students haven't yet learned about saving data or the Android lifecycle, i
       <img src = "https://user-images.githubusercontent.com/29761752/227755058-c4c14119-c870-4c46-96e5-95463d1e4fa1.png"/>
     </td>
   </tr>
+  <tr>
+    <td>
+      <img src = "https://user-images.githubusercontent.com/29761752/227755153-20ea728d-978c-4031-a869-c728d4fd537b.png"/>
+    </td>
+    <td>
+      <img src = "https://user-images.githubusercontent.com/29761752/227755155-77cb5ace-6396-4f1e-b64a-52c0d8369f1c.png"/>
+    </td>
+  </tr>
 </table>
