@@ -18,8 +18,12 @@ package com.example.android.navigation
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.*
-import android.widget.Toast
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -41,7 +45,6 @@ class GameWonFragment : Fragment() {
         )
 
         binding.nextMatchButton.setOnClickListener {
-//            it.findNavController().navigate(R.id.action_gameWonFragment_to_gameFragment)
             it.findNavController().navigate(GameWonFragmentDirections.actionGameWonFragmentToGameFragment())
         }
 
@@ -51,7 +54,6 @@ class GameWonFragment : Fragment() {
 
     // Creating our Share Intent
     private fun getShareIntent(): Intent {
-//        val args = GameWonFragmentArgs.fromBundle(arguments)
         val args = GameWonFragmentArgs.fromBundle(requireArguments())
         /*val shareIntent = Intent(Intent.ACTION_SEND)
         shareIntent.setType("text/plain")
